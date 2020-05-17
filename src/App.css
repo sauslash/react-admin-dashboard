@@ -9,7 +9,7 @@ body {
     width: 166px;
 }
 
-div[role*="banner"] {
+#spSiteHeader {
     display:none;
 }
 
