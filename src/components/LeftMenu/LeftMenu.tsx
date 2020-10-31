@@ -34,7 +34,7 @@ const LeftMenu: React.FC = () => {
             <ul className={`navbar-nav bg-gradient-primary-green sidebar sidebar-dark accordion ${getCollapseClass()}`}
                 id="collapseMenu">
 
-                <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/sites/SharePointAcademy#/Home">
+                <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                     {/* <div className="sidebar-brand-icon icon-green rotate-n-15">
                         <i className="fas fa-bolt"></i>
                     </div> */}

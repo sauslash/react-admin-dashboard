@@ -1,13 +1,14 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "react-reduction-client-side-solution",
+    "name": "dashboard",
     "id": "4ad31015-db14-4fe1-a895-758c5e6e5136",
-    "version": "1.0.0.0",
+    "version": "1.0.0.3",
     "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
     "isDomainIsolated": false
   },
   "paths": {
-    "zippedPackage": "solution/react-reduction.sppkg"
+    "zippedPackage": "solution/dashboard.sppkg"
   }
 }

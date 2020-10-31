@@ -43,7 +43,7 @@ const Products: React.FC = () => {
   return (
     <Fragment>
       <h1 className="h3 mb-2 text-gray-800">Produtos</h1>
-      <p className="mb-4">Produtos aqui</p>
+      <p className="mb-4"></p>
       <div className="row">
         <TopCard title="QTD PRODUTOS" text={`${numberItemsCount}`} icon="box" class="primary" />
         <TopCard title="ESTOQUE PRODUTOS" text={`${totalAmount}`} icon="warehouse" class="danger" />

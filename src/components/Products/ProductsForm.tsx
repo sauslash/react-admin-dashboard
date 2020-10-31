@@ -82,7 +82,7 @@ const ProductForm: React.FC = () => {
       <div className="col-xl-7 col-lg-7">
         <div className="card shadow mb-4">
           <div className="card-header py-3">
-            <h6 className="m-0 font-weight-bold text-green">Produto {(isCreate ? "create" : "edit")}</h6>
+            <h6 className="m-0 font-weight-bold text-green">{(isCreate ? "Criar" : "Editar")} Produto</h6>
           </div>
           <div className="card-body">
             <form onSubmit={saveUser}>
@@ -144,7 +144,7 @@ const ProductForm: React.FC = () => {
                   id="checkbox_expiry"
                   field="hasExpiryDate"
                   value={formState.hasExpiryDate.value}
-                  label="Tem data de vakidade"
+                  label="Tem data de validade?"
                   onChange={hasFormValueChanged}
                 />
               </div>

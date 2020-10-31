@@ -49,18 +49,18 @@
     "@types/react": "16.8.8"
   },
   "devDependencies": {
-    "@microsoft/sp-build-web": "1.10.0",
-    "@microsoft/sp-tslint-rules": "1.10.0",
-    "@microsoft/sp-module-interfaces": "1.10.0",
-    "@microsoft/sp-webpart-workbench": "1.10.0",
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@microsoft/rush-stack-compiler-3.3": "0.3.5",
-    "gulp": "~3.9.1",
+    "@microsoft/sp-build-web": "1.10.0",
+    "@microsoft/sp-module-interfaces": "1.10.0",
+    "@microsoft/sp-tslint-rules": "1.10.0",
+    "@microsoft/sp-webpart-workbench": "1.10.0",
     "@types/chai": "3.4.34",
     "@types/mocha": "2.2.38",
     "ajv": "~5.2.2",
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.11.0",
-    "react-scripts": "2.1.8",
-    "@fortawesome/fontawesome-free": "^5.11.2"
+    "gulp": "~3.9.1",
+    "node-sass": "^4.14.1",
+    "react-scripts": "2.1.8"
   }
 }

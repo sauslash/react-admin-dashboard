@@ -10,14 +10,14 @@ import Orders from "../Orders/Orders";
 import Home from "../Home/Home";
 import Notifications from "../../common/components/Notification";
 import { addProduct } from "../../store/actions/products.action";
-import { sp } from '@pnp/sp';
+import { Web } from '@pnp/sp';
 
 const Admin: React.FC = () => {
   const dispatch: Dispatch<any> = useDispatch();
 
   useEffect(() => {
-
-    sp.web.lists
+    const web = new Web(`https://solucoessa.sharepoint.com/sites/SharePointAcademy/`);
+    web.lists
       .getByTitle("Products")
       .select("ID, name,category,description,amount,price,hasExpiryDate")
       .items

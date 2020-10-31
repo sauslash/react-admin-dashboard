@@ -2,52 +2,9 @@ body {
     color: darkslategray;
 }
 
-/*class para deixar react fluido*/
-
-.logo
-{
-    width: 166px;
+.logo{
+    width: 120px
 }
-
-#spSiteHeader {
-    display:none;
-}
-
-div[class*="pageTitle"] {
-    display:none;
-}
-
-.backgroundApp, .CanvasZone
-{
-    background: #f0f0f5 !important;
-    max-width: 100% !important;
-}
-
-.CanvasZone:not(.CanvasZone--fullWidth) .ControlZone {
-    padding: 0 !important;
-}
-
-.CanvasSection-col {
-    position: relative;
-    min-height: 1px;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-@media screen and (min-width: 641px) {
-.CanvasZone {
-    padding: 0 !important;
-}
-.CanvasSection--read .ControlZone {
-    margin-top: 0 !important;
-}
-
-}
-
-
-/*class para deixar react fluido*/
 
 .popup-modal-content {
     width     : 300px !important;
