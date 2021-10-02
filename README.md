@@ -8,9 +8,9 @@ Você precisar criar uma lista chamada Products com os seguintes campos:
 
 ```
 name	          Texto com uma linha	
-category	      Opção	(legumes, verduras, frutas)
-description	    Texto com uma linha	
-amount	        Número	
+category	  Opção(legumes, verduras, frutas)
+description	  Texto com uma linha	
+amount	          Número	
 price	          Moeda	
 hasExpiryDate	  Sim/Não
 ```
