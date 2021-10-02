@@ -1,6 +1,6 @@
-## react-reduction
+## POC SPFx DashBoard com Redux 
 
-This is where you include your WebPart documentation.
+Essa poc consulta uma lista de produtos com pnpjs e popula um objeto que é compartilhado através do redux em todo o SPA
 
 ### Building the code
 
